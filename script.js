@@ -19,3 +19,6 @@ const generateJoke = () => {
 
   xhr.send();
 };
+
+jokeBtn.addEventListener("click", generateJoke);
+document.addEventListener("DOMContentLoaded", generateJoke);
