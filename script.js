@@ -20,4 +20,3 @@ const generateJoke = () => {
   xhr.send();
 };
 
-jokeBtn.addEventListener("click", generateJoke);
