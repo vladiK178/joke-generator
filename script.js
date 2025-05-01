@@ -17,6 +17,3 @@ const generateJoke = () => {
     }
   };
 
-  xhr.send();
-};
-
