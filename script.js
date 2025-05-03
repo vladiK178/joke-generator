@@ -11,9 +11,5 @@ const generateJoke = () => {
       if (this.status === 200) {
         // console.log(JSON.parse(this.responseText).value);
         jokeEl.innerHTML = JSON.parse(this.responseText).value;
-      } else {
-        jokeEl.innerHTML = "Something Went Wrong (Not Funny)";
-      }
-    }
-  };
+    
 
