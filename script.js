@@ -6,9 +6,7 @@ const generateJoke = () => {
 
   xhr.open("GET", "https://api.chucknorris.io/jokes/random");
 
-  xhr.onreadystatechange = function () {
-    if (this.readyState === 4) {
-      if (this.status === 200) {
+
         
        
     
